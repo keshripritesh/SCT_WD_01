@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  section {
+    padding: 50px 20px;
+  }
+  
+  /* Navbar */
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f39c12;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .hero .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background-color: #e67e22;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #fff;
+    text-align: center;
+    border-top: 3px solid #f39c12;
+  }
+  
+  /* Services Section */
+  .services {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .service-card {
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-card h3 {
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .contact .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact .btn:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+  }
